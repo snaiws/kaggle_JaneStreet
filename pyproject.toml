@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "janestreet"
+version = "0.1.0"
+description = ""
+authors = ["lgh <lghmk2@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
+loguru = "^0.7.2"
+python-dotenv = "^1.0.1"
+polars = {extras = ["all"], version = "^1.16.0"}
+altair = "^5.5.0"
+matplotlib = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

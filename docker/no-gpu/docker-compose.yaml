@@ -1,8 +1,8 @@
 # version: '0'
 
 services:
-  base:
-    image: base # 빌드한 도커 이미지 이름을 여기에 입력
+  janestreet:
+    image: janestreet # 빌드한 도커 이미지 이름을 여기에 입력
     env_file:
       - ./.env
     build:
